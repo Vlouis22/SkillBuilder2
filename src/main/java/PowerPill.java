@@ -26,6 +26,8 @@ public class PowerPill
      */
     public PowerPill(String name, int power)
     {
+        setName(name);
+        setPower(power);
         // TODO - add your code here
     }
 
@@ -37,6 +39,7 @@ public class PowerPill
      */
     public int getPower()
     {
+        return powerSupply;
         // TODO - add your code here
     }
 
@@ -46,6 +49,7 @@ public class PowerPill
      */
     public String getName()
     {
+        return name;
         // TODO - add your code here
     }
 
@@ -57,6 +61,7 @@ public class PowerPill
      */
     public void setPower(int power)
     {
+        powerSupply = power;
         // TODO - add your code here
     }
 
@@ -66,6 +71,7 @@ public class PowerPill
      */
     public void setName(String name)
     {
-        // TODO - add your code here
+        this.name = name;
+
     }
 }
